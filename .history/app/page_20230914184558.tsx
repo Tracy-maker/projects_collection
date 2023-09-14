@@ -14,6 +14,8 @@ export default function Home() {
           <Image
             alt="picture of my"
             src={myImage}
+            width={1260}
+            height={750}
             className="h-48 w-48 rounded-full object-cover object-top"
           />
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
@@ -69,12 +71,7 @@ export default function Home() {
             I can gracefully juggle multiple tasks, ensuring that every project
             becomes a spellbinding success. 🧙‍♂️🚀
           </p>
-          <p>
-            If you're on a quest for a partner in your career journey, someone
-            who can bring a sprinkle of magic to your projects, look no further!
-            Together, we'll embark on an epic adventure of web enchantment,
-            creating extraordinary digital experiences along the way. 🌌✨"
-          </p>
+          <P></P>
         </div>
       </div>
     </div>

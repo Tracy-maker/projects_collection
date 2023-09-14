@@ -14,6 +14,8 @@ export default function Home() {
           <Image
             alt="picture of my"
             src={myImage}
+            width={1260}
+            height={750}
             className="h-48 w-48 rounded-full object-cover object-top"
           />
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
@@ -54,28 +56,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
-          <p>🌟 Frontend Enthusiast with a Dash of Magic! 🪄</p>
-          <p>
-            My spellbook is brimming with an array of programming magic, ready
-            to conjure up stunning and functional web experiences. From crafting
-            captivating user interfaces to mastering the mystical arts of
-            JavaScript and taming the wild CSS dragons, I've got it all under
-            control. 🌐✨
-          </p>
-          <p>
-            But what truly sets me apart is my knack for seamless teamwork. I
-            thrive in collaborative environments, even when the pressure is on.
-            I can gracefully juggle multiple tasks, ensuring that every project
-            becomes a spellbinding success. 🧙‍♂️🚀
-          </p>
-          <p>
-            If you're on a quest for a partner in your career journey, someone
-            who can bring a sprinkle of magic to your projects, look no further!
-            Together, we'll embark on an epic adventure of web enchantment,
-            creating extraordinary digital experiences along the way. 🌌✨"
-          </p>
-        </div>
+        <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2"></div>
       </div>
     </div>
   );
