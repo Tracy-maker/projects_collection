@@ -118,7 +118,7 @@ export default function Navbar() {
                     : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2  dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                 }`}
               >
-                Feedback
+               Feedback
               </Link>
             </div>
             <div className="pt-2 pb-3 space-y-1">
@@ -126,12 +126,12 @@ export default function Navbar() {
                 href="/projects"
                 prefetch
                 className={`${
-                  pathname === "/projects"
+                  pathname === "/projects" 
                     ? "border-blue-500 text-blue-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
                     : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                 }`}
               >
-                Projects
+                HOME
               </Link>
             </div>
           </Disclosure.Panel>
