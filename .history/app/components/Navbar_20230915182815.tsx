@@ -60,7 +60,6 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
-              <ThemeButton />
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:ring-teal-500 dark:hover:bg-gray-800">
                   {open ? (
                     <svg
@@ -135,7 +134,8 @@ export default function Navbar() {
                 }`}
               >
                 Projects
-              </Link>        
+              </Link>
+              <ThemeButton />
             </div>
           </Disclosure.Panel>
         </>

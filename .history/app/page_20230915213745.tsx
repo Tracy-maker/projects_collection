@@ -54,7 +54,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="prose max-w-none prose-lg pt-8 pb-7 leading-loose dark:prose-invert xl:col-span-2">
+        <div className="prose max-w-none prose-lg pt-8 pb-7 leading-relaxed dark:prose-invert xl:col-span-2">
           <p>🌟 Frontend Enthusiast with a Dash of Magic! 🪄</p>
           <p>
             My spellbook is brimming with an array of programming magic, ready

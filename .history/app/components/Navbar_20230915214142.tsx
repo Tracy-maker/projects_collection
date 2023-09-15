@@ -29,7 +29,7 @@ export default function Navbar() {
                     className={`${
                       pathname === "/"
                         ? "border-blue-400 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1  border-b-2 text-sm font-medium"
                     }`}
                   >
                     HOME
@@ -135,7 +135,8 @@ export default function Navbar() {
                 }`}
               >
                 Projects
-              </Link>        
+              </Link>
+         
             </div>
           </Disclosure.Panel>
         </>
