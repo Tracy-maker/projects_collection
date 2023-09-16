@@ -1,14 +1,6 @@
-"use client";
-import { postEntry } from "../action";
-
 export default function Form() {
   return (
-    <form
-      action={async (formData) => {
-        await postEntry(formData);
-      }}
-      className="relative flex items-center text-sm mb-5"
-    >
+    <form className="relative flex items-center text-sm mb-5">
       <input
         type="text"
         placeholder="Your message..."
@@ -18,7 +10,7 @@ export default function Form() {
       />
       <button
         type="submit"
-        className="flex items-center justify-center absolute right-2 mt-1 font-medium h-9 bg-blue-500/30 text-neutral-900 dark:text-neutral-100 rounded w-20"
+        className="flex items-center justify-center absolute right-2 mt-1 font-medium h-8 bg-blue-500/30 text-neutral-900 dark:text-neutral-100 rounded w-16"
       >
         SEND
       </button>

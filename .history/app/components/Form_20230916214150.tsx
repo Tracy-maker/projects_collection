@@ -1,14 +1,6 @@
-"use client";
-import { postEntry } from "../action";
-
 export default function Form() {
   return (
-    <form
-      action={async (formData) => {
-        await postEntry(formData);
-      }}
-      className="relative flex items-center text-sm mb-5"
-    >
+    <form className="relative flex items-center text-sm mb-5">
       <input
         type="text"
         placeholder="Your message..."

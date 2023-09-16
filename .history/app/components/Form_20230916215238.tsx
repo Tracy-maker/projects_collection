@@ -1,4 +1,3 @@
-"use client";
 import { postEntry } from "../action";
 
 export default function Form() {

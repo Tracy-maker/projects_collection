@@ -1,5 +1,16 @@
 "use client";
 import { postEntry } from "../action";
+import prisma from "../db";
+
+async function getEntries() {
+  const data = await prisma.feedback.findMany({
+    take: 50,
+    orderBy: {
+      created_at: "desc",
+    },
+  });
+  return data;
+}
 
 export default function Form() {
   return (

@@ -23,10 +23,6 @@ export default async function feedback() {
       <div className="w-full">
         <div className="max-w-[800px] mx-auto mt-8">
           <Form />
-
-          {data.map((entry) => (
-            <div key={entry.id} className="w-full text-sm break-words"></div>
-          ))}
         </div>
       </div>
     </div>
