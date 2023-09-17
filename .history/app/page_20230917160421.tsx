@@ -1,5 +1,5 @@
-import Image from  "next/image";
-import myImage from "./utils/1.png";
+import Image from "next/image";
+import myImage from "../public/";
 
 export default function Home() {
   return (
@@ -60,8 +60,8 @@ export default function Home() {
             My spellbook is brimming with an array of programming magic, ready
             to conjure up stunning and functional web experiences. From crafting
             captivating user interfaces to mastering the mystical arts of
-            JavaScript and taming the wild CSS dragons, I&apos;ve got it all
-            under control. 🌐✨
+            JavaScript and taming the wild CSS dragons, I&apos;ve got it all under
+            control. 🌐✨
           </p>
           <p>
             But what truly sets me apart is my knack for seamless teamwork. I
