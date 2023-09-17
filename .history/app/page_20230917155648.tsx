@@ -73,7 +73,7 @@ export default function Home() {
             If you are on a quest for a partner in your career journey, someone
             who can bring a sprinkle of magic to your projects, look no further!
             Together, we will embark on an epic adventure of web enchantment,
-            creating extraordinary digital experiences along the way🌌✨.
+            creating extraordinary digital experiences along the way🌌✨."
           </p>
         </div>
       </div>
