@@ -9,7 +9,7 @@ datasource db {
 }
 
 
-model Feedback {
+model feedback {
   id  String  @id @default(uuid())
   message String
   username String
