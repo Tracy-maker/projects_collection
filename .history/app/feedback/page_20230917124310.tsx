@@ -25,9 +25,7 @@ export default async function feedback() {
           <Form />
 
           {data.map((entry) => (
-            <div key={entry.id} className="w-full text-sm break-words">
-              {entry.message}
-            </div>
+            <div key={entry.id} className="w-full text-sm break-words">{entry.message}</div>
           ))}
         </div>
       </div>

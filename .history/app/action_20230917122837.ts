@@ -1,7 +1,6 @@
 "use server";
 
-import prisma from "./db";
-
+import { prisma } from "./db";
 
 export async function postEntry(formData: FormData) {
   "use server";
