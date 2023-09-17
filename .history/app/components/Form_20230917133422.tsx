@@ -26,7 +26,6 @@ export default function Form() {
       />
       <button
         type="submit"
-        disabled={pending}
         className="flex items-center justify-center absolute right-2 mt-1 font-medium h-9 bg-blue-500/30 text-neutral-900 dark:text-neutral-100 rounded w-20"
       >
         SEND
