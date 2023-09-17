@@ -45,7 +45,7 @@ export default function Home() {
               </svg>
             </a>
 
-            <a href="mailto:ydlvns@gmail.com" target="_blank">
+            <a href="mailto:ydlvns@gmail.com"  target="_blank">
               <svg
                 fill="currentColor"
                 viewBox="0 0 16 16"
