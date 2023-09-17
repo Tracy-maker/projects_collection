@@ -34,7 +34,7 @@ export default function Navbar() {
                   >
                     HOME
                   </Link>
-
+              
                   <Link
                     href="/projects"
                     prefetch
@@ -50,7 +50,7 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
-                <ThemeButton />
+              <ThemeButton />
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:ring-teal-500 dark:hover:bg-gray-800">
                   {open ? (
                     <svg
@@ -101,7 +101,7 @@ export default function Navbar() {
                 HOME
               </Link>
             </div>
-
+          
             <div className="pt-2 pb-3 space-y-1">
               <Link
                 href="/projects"
@@ -112,8 +112,8 @@ export default function Navbar() {
                     : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-blue-500 block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                 }`}
               >
-                PROJECTS
-              </Link>
+                Projects
+              </Link>        
             </div>
           </Disclosure.Panel>
         </>
