@@ -60,26 +60,17 @@ export default function Home() {
         <div className="prose max-w-none prose-lg pt-8 pb-7 leading-loose dark:prose-invert xl:col-span-2">
           <p>🌟 Junior Frontend Enthusiast Eager to Learn! 🪄</p>
           <p>
-            I&apos;m a budding magician in the world of web development, and I'm
+            I'm a budding magician in the world of web development, and I'm
             passionate about crafting web experiences that are not only
-            functional but also visually appealing. I&apos;m currently honing my
-            skills in JavaScript and CSS, and I&apos;m excited about the journey
+            functional but also visually appealing. I'm currently honing my
+            skills in JavaScript and CSS, and I'm excited about the journey
             ahead. 🌐✨
           </p>
           <p>
-            What sets me apart is my enthusiasm for collaboration and learning.
-            I thrive in team settings, and I&apos;m always eager to absorb
-            knowledge from experienced developers. I may be new to the field,
-            but I&apos;m a quick learner and a diligent worker, ready to
-            contribute to projects with a fresh perspective. 🧙‍♂️🚀
+          What sets me apart is my enthusiasm for collaboration and learning. I thrive in team settings, and I'm always eager to absorb knowledge from experienced developers. I may be new to the field, but I'm a quick learner and a diligent worker, ready to contribute to projects with a fresh perspective. 🧙‍♂️🚀
           </p>
           <p>
-            If you&apos;re in search of a junior teammate for your web
-            development adventures, someone who&apos;s eager to add a touch of
-            magic to your projects while learning and growing alongside you,
-            I&apos;m here and ready to embark on this exciting journey of web
-            development together. Let&apos;s create some enchanting digital
-            experiences! 🌌✨
+          If you're in search of a junior teammate for your web development adventures, someone who's eager to add a touch of magic to your projects while learning and growing alongside you, I'm here and ready to embark on this exciting journey of web development together. Let's create some enchanting digital experiences! 🌌✨
           </p>
         </div>
       </div>

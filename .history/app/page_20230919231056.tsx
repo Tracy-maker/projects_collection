@@ -68,18 +68,17 @@ export default function Home() {
           </p>
           <p>
             What sets me apart is my enthusiasm for collaboration and learning.
-            I thrive in team settings, and I&apos;m always eager to absorb
-            knowledge from experienced developers. I may be new to the field,
-            but I&apos;m a quick learner and a diligent worker, ready to
-            contribute to projects with a fresh perspective. 🧙‍♂️🚀
+            I thrive in team settings, and I&apos;m always eager to absorb knowledge
+            from experienced developers. I may be new to the field, but I'm a
+            quick learner and a diligent worker, ready to contribute to projects
+            with a fresh perspective. 🧙‍♂️🚀
           </p>
           <p>
-            If you&apos;re in search of a junior teammate for your web
-            development adventures, someone who&apos;s eager to add a touch of
-            magic to your projects while learning and growing alongside you,
-            I&apos;m here and ready to embark on this exciting journey of web
-            development together. Let&apos;s create some enchanting digital
-            experiences! 🌌✨
+            If you're in search of a junior teammate for your web development
+            adventures, someone who's eager to add a touch of magic to your
+            projects while learning and growing alongside you, I'm here and
+            ready to embark on this exciting journey of web development
+            together. Let's create some enchanting digital experiences! 🌌✨
           </p>
         </div>
       </div>
