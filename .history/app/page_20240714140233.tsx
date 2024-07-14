@@ -16,7 +16,7 @@ export default function Home() {
             src="https://i.ibb.co/MRHHtS5/Wechat-IMG7.jpg" 
             width={700}
             height={500}
-            className="object-cover object-top"
+            className="h-52 w-44  rounded-lg object-cover object-top"
           />
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
             Yingxin Zhang
@@ -60,29 +60,28 @@ export default function Home() {
           </div>
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 leading-loose dark:prose-invert xl:col-span-2">
-          <p>🌟 Junior Frontend Enthusiast Eager to Learn! 🪄</p>
-          <p>
-            I&apos;m a budding magician in the world of web development, and I&apos;m
-            passionate about crafting web experiences that are not only
-            functional but also visually appealing. I&apos;m currently honing my
-            skills in JavaScript,React.JS,Tailwind,CSS,Firebase... and I&apos;m excited about the journey
-            ahead. 🌐✨
-          </p>
-          <p>
-            What sets me apart is my enthusiasm for collaboration and learning.
-            I thrive in team settings, and I&apos;m always eager to absorb
-            knowledge from experienced developers. I may be new to the field,
-            but I&apos;m a quick learner and a diligent worker, ready to
-            contribute to projects with a fresh perspective. 🧙‍♂️🚀
-          </p>
-          <p>
-            If you&apos;re in search of a junior teammate for your web
-            development adventures, someone who&apos;s eager to add a touch of
-            magic to your projects while learning and growing alongside you,
-            I&apos;m here and ready to embark on this exciting journey of web
-            development together. Let&apos;s create some enchanting digital
-            experiences! 🌌✨
-          </p>
+        <p>🌟 Full Stack Developer Eager to Contribute! 🪄</p>
+<p>
+  I&apos;m a budding magician in the world of web development, and I&apos;m
+  passionate about crafting web experiences that are not only functional but also visually appealing. I&apos;m currently honing my skills in JavaScript, React.JS, Tailwind, CSS, Firebase... and I&apos;m excited about the journey ahead. 🌐✨
+</p>
+<p>
+  What sets me apart is my enthusiasm for collaboration and growth.
+  I thrive in team settings and am a diligent worker, ready to contribute to projects with a fresh perspective. 🧙‍♂️🚀
+</p>
+<p>
+  Motivated and detail-oriented Full Stack Developer with extensive experience in front-end and back-end web application development. Proficient in TypeScript (React), AWS, and Node.js. Highly skilled in building secure, scalable, and reliable code across various platforms. Passionate about software development with significant expertise in JavaScript frameworks, CI/CD, TDD, and Cloud technologies. Demonstrated success in agile development environments, consistently delivering projects on time. Additionally, I have a strong background in UI design and design skills using Figma.
+</p>
+<p>
+  If you&apos;re in search of a junior teammate for your web
+  development adventures, someone who&apos;s eager to add a touch of
+  magic to your projects while growing alongside you,
+  I&apos;m here and ready to embark on this exciting journey of web
+  development together. Let&apos;s create some enchanting digital
+  experiences! 🌌✨
+</p>
+
+
         </div>
       </div>
     </div>

@@ -6,14 +6,14 @@ export default function Home() {
     <div className="divide-y divide-gray-100 dark:divide-gray-700">
       <div className="space-y-2 pt-5 pb-8 md:space-x-5">
         <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-13">
-          HOME
+          Introduction
         </h1>
       </div>
       <div className="items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
         <div className="flex flex-col items-center pt-8">
           <Image
             alt="picture of my"
-            src="https://i.ibb.co/MRHHtS5/Wechat-IMG7.jpg" 
+            src="https://i.ibb.co/9388MjT/Wechat-IMG211.jpg"
             width={700}
             height={500}
             className="h-52 w-44  rounded-lg object-cover object-top"
@@ -22,7 +22,7 @@ export default function Home() {
             Yingxin Zhang
           </h3>
           <p className="text-gray-500 dark:text-gray-300 text-center">
-            Hey I am a Front-end developer
+            Hey I am a Full Stack Developer
           </p>
           <div className="flex space-x-5 pt-6">
             <a href="https://github.com/Tracy-maker" target="_blank">
@@ -60,28 +60,39 @@ export default function Home() {
           </div>
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 leading-loose dark:prose-invert xl:col-span-2">
-          <p>🌟 Junior Frontend Enthusiast Eager to Learn! 🪄</p>
+          <p>🌟 Full Stack Developer Eager to Contribute! 🪄</p>
           <p>
-            I&apos;m a budding magician in the world of web development, and I&apos;m
-            passionate about crafting web experiences that are not only
-            functional but also visually appealing. I&apos;m currently honing my
-            skills in JavaScript,React.JS,Tailwind,CSS,Firebase... and I&apos;m excited about the journey
-            ahead. 🌐✨
+            I am an emerging talent in the realm of web development, dedicated
+            to creating web experiences that are both functional and visually
+            captivating. My current focus is on enhancing my skills in
+            JavaScript, React.JS, Tailwind, CSS, and Firebase, and I am
+            enthusiastic about the path ahead. 🌐✨
           </p>
           <p>
-            What sets me apart is my enthusiasm for collaboration and learning.
-            I thrive in team settings, and I&apos;m always eager to absorb
-            knowledge from experienced developers. I may be new to the field,
-            but I&apos;m a quick learner and a diligent worker, ready to
-            contribute to projects with a fresh perspective. 🧙‍♂️🚀
+            My strength lies in my passion for collaboration and continuous
+            improvement. I excel in team environments and am committed to
+            delivering high-quality work with a fresh and innovative
+            perspective. 🧙‍♂️🚀
           </p>
           <p>
-            If you&apos;re in search of a junior teammate for your web
-            development adventures, someone who&apos;s eager to add a touch of
-            magic to your projects while learning and growing alongside you,
-            I&apos;m here and ready to embark on this exciting journey of web
-            development together. Let&apos;s create some enchanting digital
-            experiences! 🌌✨
+            As a motivated and detail-oriented Full Stack Developer, I have
+            extensive experience in both front-end and back-end web application
+            development. My proficiency includes TypeScript (React), AWS, and
+            Node.js, with a strong emphasis on developing secure, scalable, and
+            reliable code across various platforms. I am passionate about
+            software development and possess significant expertise in JavaScript
+            frameworks, CI/CD, TDD, and cloud technologies. I have a proven
+            track record of success in agile development environments,
+            consistently delivering projects on time. Additionally, my
+            background in UI design and proficiency with Figma allows me to
+            create intuitive and aesthetically pleasing user interfaces.
+          </p>
+          <p>
+            If you are looking for a dedicated teammate for your web development
+            projects, someone who is eager to bring a touch of innovation to
+            your endeavors while continuously growing and evolving, I am ready
+            to embark on this exciting journey with you. Let&apos;s create some
+            remarkable digital experiences together! 🌌✨
           </p>
         </div>
       </div>
