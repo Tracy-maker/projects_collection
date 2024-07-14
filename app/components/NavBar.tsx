@@ -17,7 +17,7 @@ export default function Navbar() {
                 <div className="flex items-center">
                   <Link href="/">
                     <h1 className="text-2xl font-medium">
-                      Yingxin <span className="text-blue-400">Zhang</span>
+                      Yingxin <span className="text-purple-300">Zhang</span>
                     </h1>
                   </Link>
                 </div>

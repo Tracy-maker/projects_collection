@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Disclosure } from "@headlessui/react";
+import ThemeButton from "./ThemeButton";
 
 export default function Navbar() {
   let pathname = usePathname() || "/";
@@ -16,7 +17,7 @@ export default function Navbar() {
                 <div className="flex items-center">
                   <Link href="/">
                     <h1 className="text-2xl font-medium">
-                      Yingxin <span className="text-blue-400">Zhang</span>
+                      Yingxin <span className="text-purple-300">Zhang</span>
                     </h1>
                   </Link>
                 </div>
@@ -33,17 +34,7 @@ export default function Navbar() {
                   >
                     HOME
                   </Link>
-                  <Link
-                    href="/guestFeedback"
-                    prefetch
-                    className={`${
-                      pathname === "/guestFeedback"
-                        ? "border-blue-400 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                    }`}
-                  >
-                    Feedback
-                  </Link>
+
                   <Link
                     href="/projects"
                     prefetch
@@ -53,11 +44,13 @@ export default function Navbar() {
                         : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     }`}
                   >
-                    Projects
+                    PROJECTS
                   </Link>
+                  <ThemeButton />
                 </div>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
+                <ThemeButton />
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:ring-teal-500 dark:hover:bg-gray-800">
                   {open ? (
                     <svg
@@ -101,37 +94,25 @@ export default function Navbar() {
                 prefetch
                 className={`${
                   pathname === "/"
-                    ? "border-blue-500 text-blue-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
-                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 dark:hover:bg-gray-700"
+                    ? "bg-blue-50 border-blue-500 text-blue-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
+                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-blue-500 block pl-3 pr-4 py-2 dark:hover:bg-gray-700"
                 }`}
               >
                 HOME
               </Link>
             </div>
+
             <div className="pt-2 pb-3 space-y-1">
               <Link
-                href="/"
+                href="/projects"
                 prefetch
                 className={`${
-                  pathname === "/"
-                    ? "border-blue-500 text-blue-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
-                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 dark:hover:bg-gray-700"
+                  pathname === "/projects"
+                    ? "bg-blue-50 border-blue-500 text-blue-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
+                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-blue-500 block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                 }`}
               >
-                HOME
-              </Link>
-            </div>
-            <div className="pt-2 pb-3 space-y-1">
-              <Link
-                href="/"
-                prefetch
-                className={`${
-                  pathname === "/"
-                    ? "border-blue-500 text-blue-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
-                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
-                }`}
-              >
-                HOME
+                PROJECTS
               </Link>
             </div>
           </Disclosure.Panel>
