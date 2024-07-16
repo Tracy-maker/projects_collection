@@ -1,6 +1,6 @@
 export default {
-  name: 'project',
-  title: 'Project',
+  name: 'uiShowcase',
+  title: 'UI Showcase',
   type: 'document',
   fields: [
     {name: 'title', type: 'string', title: 'Title'},
