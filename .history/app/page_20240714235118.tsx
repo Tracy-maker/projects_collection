@@ -15,7 +15,7 @@ export default function Home() {
         src="https://i.ibb.co/9388MjT/Wechat-IMG211.jpg"
         width={900}
         height={700}
-        className="w-full h-auto sm:w-44 sm:h-52 lg:w-96 lg:h-96 rounded-lg object-cover object-top"
+        className="w-full h-auto sm:w-44 sm:h-52 lg:w-96 lg:h-116 rounded-lg object-cover object-top"
       />
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
             Yingxin Zhang

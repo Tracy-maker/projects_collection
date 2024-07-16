@@ -10,13 +10,13 @@ export default function Home() {
       </div>
       <div className="items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
         <div className="flex flex-col items-center pt-8">
-        <Image
-        alt="picture of me"
-        src="https://i.ibb.co/9388MjT/Wechat-IMG211.jpg"
-        width={900}
-        height={700}
-        className="w-full h-auto sm:w-44 sm:h-52 lg:w-96 lg:h-96 rounded-lg object-cover object-top"
-      />
+          <Image
+            alt="picture of my"
+            src="https://i.ibb.co/9388MjT/Wechat-IMG211.jpg"
+            width={900}
+            height={700}
+            className="sm:h-52 w-34    xl:h-92 w-74  rounded-lg object-cover object-top"
+          />
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
             Yingxin Zhang
           </h3>
