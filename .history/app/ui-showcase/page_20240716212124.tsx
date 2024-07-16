@@ -22,7 +22,7 @@ async function getUIShowcases() {
     "imageUrl": image.asset->url,
   }`;
   const data = await client.fetch(query);
-  return data as Showcase[];
+  return data;
 }
 
 export default async function UIShowcasePage() {
